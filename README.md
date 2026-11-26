@@ -7,6 +7,10 @@ Free, open-source tools for when something you rely on shuts down. This reposito
 - **[Done With Windows 10](https://lifeboatlabs.github.io/done-with-windows-10/)**: a free, plain-English plan to keep a Windows 10 PC safe without buying a new one, before security updates for home PCs end on October 12, 2027. [Source code](https://github.com/LifeboatLabs/done-with-windows-10)
 - **[Done With To Do](https://lifeboatlabs.github.io/done-with-todo/)**: back up your Microsoft To Do lists or move them to Google Tasks before To Do closes on June 30, 2027. [Source code](https://github.com/LifeboatLabs/done-with-todo)
 
+## Follow us
+
+New tools and updates go out on X: [@Lifeboat_labs](https://x.com/Lifeboat_labs).
+
 ## Is an app you use shutting down?
 
 [Open an issue](https://github.com/LifeboatLabs/lifeboatlabs.github.io/issues/new) and tell us which app, when it closes, and what you'd need to take with you.
