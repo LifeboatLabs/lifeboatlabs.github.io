@@ -35,6 +35,21 @@ h2 { font-size: 1.375rem; font-weight: 600; margin: 3rem 0 0.75rem; }
 .ask h2 { margin-top: 0; }
 .ask p { margin: 0 0 1rem; }
 
+.nav { display: flex; gap: 1.25rem; flex-wrap: wrap; }
+
+/* Tip page */
+.page-title { font-size: clamp(2rem, 1.5rem + 2vw, 2.75rem); font-weight: 800; letter-spacing: -0.015em; line-height: 1.1; margin: 0 0 0.75rem; }
+.lead { font-size: 1.1875rem; }
+.wallets { list-style: none; margin: 1.5rem 0 0; padding: 0; border-top: 2px solid var(--ink); }
+.wallet { padding: 1.25rem 0 1.5rem; border-bottom: 1px solid var(--line); max-width: none; }
+.wallet h2 { margin: 0; font-size: 1.25rem; }
+.takes { margin: 0.15rem 0 0.75rem; color: var(--ink-soft); }
+/* A fixed-width face keeps 0/O and l/1 apart, so people can check the address by eye. */
+.address { display: block; font: 1.0625rem/1.5 ui-monospace, "Cascadia Mono", Consolas, Menlo, monospace; background: var(--mist); border-radius: 6px; padding: 0.8rem 1rem; word-break: break-all; user-select: all; max-width: 40rem; margin-bottom: 0.75rem; }
+button.btn { border: 0; font: inherit; font-weight: 600; cursor: pointer; }
+.warn { font-weight: 600; margin-top: 1rem; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
 footer { margin-top: 4rem; padding: 2rem 0 3rem; border-top: 1px solid var(--line); color: var(--ink-soft); font-size: 0.9rem; }
 
 @media (max-width: 720px) {

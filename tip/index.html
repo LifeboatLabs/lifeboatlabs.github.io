@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; font-src 'self'; img-src 'self' data:; base-uri 'none'; form-action 'none'">
+  <title>Leave a tip: Lifeboat Labs</title>
+  <meta name="description" content="Lifeboat Labs tools are free and open source. If one saved you time, you can leave a tip in SOL, ETH or USDC.">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../style.css?v=2">
+  <script src="tip.js?v=1" defer></script>
+</head>
+<body>
+  <header>
+    <div class="wrap bar">
+      <a class="brand" href="../"><img src="../favicon.svg" alt=""> Lifeboat Labs</a>
+      <nav class="nav"><a href="https://github.com/LifeboatLabs">GitHub</a></nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <h1 class="page-title">Leave a tip</h1>
+    <p class="lead">Our tools are free and open source, and they'll stay that way. If one saved you time, a tip helps us build the next one.</p>
+    <p>We take tips in crypto. Copy the address for the network you're sending on.</p>
+
+    <ul class="wallets">
+      <li class="wallet">
+        <h2>Solana</h2>
+        <p class="takes">SOL, or USDC on Solana</p>
+        <code class="address" id="addr-sol">AACxgCb7j35P9CSDhyovWpvuA4ihAzJ8a5sC63NEx3y4</code>
+        <button type="button" class="btn copy" data-copy="addr-sol" hidden>Copy Solana address</button>
+      </li>
+      <li class="wallet">
+        <h2>Ethereum or Base</h2>
+        <p class="takes">ETH, or USDC on Ethereum or Base</p>
+        <code class="address" id="addr-eth">0x4D0Ae96Fddc71CC1d3240f6fA294008EEfd08c51</code>
+        <button type="button" class="btn copy" data-copy="addr-eth" hidden>Copy Ethereum address</button>
+      </li>
+    </ul>
+    <p class="warn">Check the network before you send. Coins sent on any other network might not arrive.</p>
+    <p id="copy-status" class="visually-hidden" aria-live="polite"></p>
+
+    <section class="ask">
+      <h2>No crypto? You can still help</h2>
+      <p>Star a tool on GitHub, or tell someone whose app is about to shut down. That helps other people find us, and it's worth as much to us as a tip.</p>
+      <p class="links"><a class="btn" href="https://github.com/LifeboatLabs/done-with-todo">Star Done With To Do</a> <a href="../">See all our tools</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p>Tips are gifts. They don't buy support or features, and every tool stays free for everyone. This site has no cookies, analytics or tracking.</p>
+    </div>
+  </footer>
+</body>
+</html>
