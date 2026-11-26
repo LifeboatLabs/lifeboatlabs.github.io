@@ -18,7 +18,7 @@ header { border-bottom: 1px solid var(--line); margin-bottom: 2rem; }
 
 .sign { background: var(--green); color: #fff; border-radius: 12px; padding: 2.5rem; display: grid; grid-template-columns: 7rem 1fr; gap: 2rem; align-items: start; }
 .sign img { width: 7rem; height: 7rem; }
-.sign h1 { margin: 0 0 0.9rem; font-size: clamp(2.2rem, 1.5rem + 3vw, 3.4rem); line-height: 1.04; letter-spacing: -0.02em; font-weight: 800; }
+.sign h1 { text-wrap: balance; margin: 0 0 0.9rem; font-size: clamp(2.2rem, 1.5rem + 3vw, 3.4rem); line-height: 1.04; letter-spacing: -0.02em; font-weight: 800; }
 .sign p { margin: 0; font-size: 1.1875rem; max-width: 36rem; }
 
 h2 { font-size: 1.375rem; font-weight: 600; margin: 3rem 0 0.75rem; }
