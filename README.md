@@ -9,7 +9,7 @@ Free, open-source tools for when something you rely on shuts down. This reposito
 
 ## Follow us
 
-New tools and updates go out on X: [@Lifeboat_labs](https://x.com/Lifeboat_labs).
+New tools and updates go out on X: [@Lifeboat_labs](https://x.com/Lifeboat_labs). We're also on Reddit: [u/Natural_Ad5072](https://www.reddit.com/user/Natural_Ad5072/).
 
 ## Is an app you use shutting down?
 
