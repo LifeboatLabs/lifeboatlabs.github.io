@@ -1,0 +1,44 @@
+/* Lifeboat Labs: the same public-sign look as our tools. Green means the way out. */
+@font-face { font-family: "Fira Sans"; src: url("fira-sans-400.woff") format("woff"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Fira Sans"; src: url("fira-sans-600.woff") format("woff"); font-weight: 600; font-display: swap; }
+@font-face { font-family: "Fira Sans"; src: url("fira-sans-800.woff") format("woff"); font-weight: 800; font-display: swap; }
+
+:root { --green: #0a7a3d; --green-deep: #075c2d; --ink: #13261b; --ink-soft: #46574c; --line: #cfdcd2; --mist: #eef3ef; }
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; color: var(--ink); background: #fff; font: 1.0625rem/1.55 "Fira Sans", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif; }
+a { color: var(--green-deep); text-underline-offset: 0.15em; }
+:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
+.wrap { max-width: 62rem; margin: 0 auto; padding: 0 1.25rem; }
+p, li { max-width: 40rem; }
+
+header { border-bottom: 1px solid var(--line); margin-bottom: 2rem; }
+.bar { display: flex; align-items: center; justify-content: space-between; min-height: 4rem; gap: 1rem; }
+.brand { display: inline-flex; align-items: center; gap: 0.6rem; font-weight: 600; font-size: 1.125rem; color: var(--ink); text-decoration: none; }
+.brand img { width: 2rem; height: 2rem; }
+
+.sign { background: var(--green); color: #fff; border-radius: 12px; padding: 2.5rem; display: grid; grid-template-columns: 7rem 1fr; gap: 2rem; align-items: start; }
+.sign img { width: 7rem; height: 7rem; }
+.sign h1 { margin: 0 0 0.9rem; font-size: clamp(2.2rem, 1.5rem + 3vw, 3.4rem); line-height: 1.04; letter-spacing: -0.02em; font-weight: 800; }
+.sign p { margin: 0; font-size: 1.1875rem; max-width: 36rem; }
+
+h2 { font-size: 1.375rem; font-weight: 600; margin: 3rem 0 0.75rem; }
+.boats { list-style: none; margin: 0; padding: 0; border-top: 2px solid var(--ink); }
+.boat { display: grid; grid-template-columns: 1fr auto; gap: 0.5rem 1.5rem; padding: 1.25rem 0; border-bottom: 1px solid var(--line); max-width: none; }
+.boat h3 { margin: 0; font-size: 1.25rem; }
+.boat p { margin: 0.25rem 0 0.75rem; color: var(--ink-soft); }
+.state { font-weight: 600; color: var(--green-deep); font-size: 0.95rem; white-space: nowrap; }
+.links { display: flex; flex-wrap: wrap; gap: 0.75rem 1.25rem; align-items: center; margin: 0; }
+.btn { display: inline-block; background: var(--green); color: #fff; font-weight: 600; text-decoration: none; padding: 0.7rem 1.2rem; border-radius: 6px; }
+.btn:hover { background: var(--green-deep); color: #fff; }
+
+.ask { background: var(--mist); border-radius: 8px; padding: 1.5rem; margin-top: 3rem; }
+.ask h2 { margin-top: 0; }
+.ask p { margin: 0 0 1rem; }
+
+footer { margin-top: 4rem; padding: 2rem 0 3rem; border-top: 1px solid var(--line); color: var(--ink-soft); font-size: 0.9rem; }
+
+@media (max-width: 720px) {
+  .sign { grid-template-columns: 1fr; padding: 1.75rem 1.4rem; gap: 1rem; }
+  .sign img { width: 4rem; height: 4rem; }
+  .boat { grid-template-columns: 1fr; }
+}
